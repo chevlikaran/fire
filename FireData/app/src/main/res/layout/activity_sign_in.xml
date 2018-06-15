@@ -7,7 +7,7 @@
     android:padding="32dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignInActivity">
 
     <EditText
         android:layout_width="match_parent"
@@ -26,14 +26,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/sign_up"
-        android:text="Sign Up" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/sign_in"
-        android:text="Sign In"
-        android:onClick="SignInM"/>
+        android:text="Sign In" />
+
 
 </LinearLayout>
